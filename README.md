@@ -1,18 +1,19 @@
-Role Name
-=========
+js ansible role
+===============
+
+![CI](https://github.com/baztian/ansible-js/workflows/CI/badge.svg
 
 Role to download, install and setup various tools related to JavaScript.
 
 Example Playbook
 ----------------
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
-
     - hosts: servers
+      become: yes
       roles:
          - role: baztian.js
 
 License
 -------
 
-GPLv3
+MIT
