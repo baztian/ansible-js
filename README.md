@@ -1,7 +1,7 @@
 js ansible role
 ===============
 
-![CI](https://github.com/baztian/ansible-js/workflows/CI/badge.svg
+![CI](https://github.com/baztian/ansible-js/workflows/CI/badge.svg)
 
 Role to download, install and setup various tools related to JavaScript.
 
