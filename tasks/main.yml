@@ -1,6 +1,6 @@
 ---
 - name: Extract distribution base name (works on linux mint as well)
-  command: grep -oP 'UBUNTU_CODENAME=\K.*' /etc/os-release
+  command: grep -oP '{{ "UBUNTU" if ansible_distribution == "Ubuntu" else "VERSION" }}_CODENAME=\K.*' /etc/os-release
   register: distro
   changed_when: False
 - name: Add nodesource signing key on remote server to keyring
