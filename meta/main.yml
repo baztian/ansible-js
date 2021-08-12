@@ -18,6 +18,5 @@ galaxy_info:
     - javascript
     - node
     - npm
-    - serverless
     - yarn
 dependencies: []
